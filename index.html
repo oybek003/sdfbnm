@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <script src=""></script>
+</head>
+<body>
+
+    <div class="container">
+        <h2>QR Code Generators</h2>
+        <input type="text" id="text" placeholder="url or text">
+        <button id="generateBtn">QR Code yaratish</button>
+        <div id="qrcode"></div>
+    
+        <div class="colors">
+          <label>
+            QR Code rangi:
+            <input type="color" id="qrColor" value="#000000">
+          </label>
+          <label>
+            QR Code fon rangi:
+            <input type="color" id="bgColor" value="#ffffff">
+          </label>
+        </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/gh/davidshimjs/qrcodejs/qrcode.min.js"></script>
+
+    
+    <script type="module" src="./js/script.js"></script>
+</body>
+</html>
